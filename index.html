@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Sum Problem Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Two Sum Problem Visualization</h1>
+        <form id="twoSumForm">
+            <label for="nums">Enter numbers (comma-separated):</label>
+            <input type="text" id="nums" placeholder="e.g. 2,7,11,15" required>
+            
+            <label for="target">Enter target:</label>
+            <input type="number" id="target" required>
+            
+            <button type="submit">Find Indices</button>
+        </form>
+        <div id="result"></div>
+        <div id="traversalSteps" class="traversal-steps"></div>
+        <div id="diagram" class="diagram"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
